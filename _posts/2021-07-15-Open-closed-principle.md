@@ -31,7 +31,7 @@
         }
         
         pair<pair<int, int>, string> getter() const {
-            return {{m_a, m_b}, m_op};
+            return { {m_a, m_b}, m_op };
         };
         
         int getResult() const {
@@ -42,6 +42,7 @@
                 return INT32_MAX;
             }
         }
+        
     private:
         int m_a;
         int m_b;
